@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header {
+    background-color: rgb(21, 21, 48);
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+.product, .product-details {
+    border: 1px solid rgb(20, 15, 25);
+    padding: 100px;
+    width: 150px;
+    text-align: center;
+}
+
+.product img, .product-details img {
+    width: 100%;
+    height: auto;
+    height: 150px;
+}
+
+.product button, .product-details button, .payment-form button {
+    background-color: rgb(21, 21, 48);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.payment-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.payment-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top:450px;
+  
+}
+
+.footer-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+a.shop{
+    text-decoration: none;
+    color: brown;
+    font-size: large;
+    font-weight: 800;
+    border: 3px solid brown;
+    padding: 3px;
+}
+.wel{
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

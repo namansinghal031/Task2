@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - E-commerce Website</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="shopping_cart.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="task.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Your Cart</h1>
+        <div class="cart-items">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-total">
+            <h2>Total: $<span id="cart-total">0.00</span></h2>
+        </div>
+        <a href="pay.html">Proceed to Payment</a>
+    </main>
+    <script src="task.js"></script>
+</body>
+</html>
